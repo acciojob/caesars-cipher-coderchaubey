@@ -13,8 +13,12 @@ const lookup = {
 function rot13(encodedStr){
    let decodedArr = []; // Your Result goes here
   // Only change code below this line
+	for (let index = 0; index < ; index++){
+		let currentCharacter=decodedArr[index];
+		decodedArr.push(encodedStr[currentCharacter]);
+	}
 
-  return ;//return decodedArr
+rn decodedArr;//return decodedArr
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
