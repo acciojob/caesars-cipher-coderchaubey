@@ -14,8 +14,8 @@ function rot13(encodedStr){
    let decodedArr = []; // Your Result goes here
   // Only change code below this line
 	for (let index = 0; index < ; index++){
-		let currentCharacter=decodedArr[index];
-		decodedArr.push(encodedStr[currentCharacter]);
+		let currentCharacter=encodedStr[index];
+		decodedArr.push(lookup[currentCharacter]);
 	}
 
 rn decodedArr;//return decodedArr
